@@ -19,8 +19,8 @@
 		B64D86EB1FD44B14008F4E7E /* StockStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D86EA1FD44B14008F4E7E /* StockStore.swift */; };
 		B64D86ED1FD44D47008F4E7E /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B64D86EC1FD44D47008F4E7E /* Localizable.strings */; };
 		B64D86EF1FD44E24008F4E7E /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = B64D86EE1FD44E24008F4E7E /* Formatters.swift */; };
-		B6BE24821FD47D3E002BC219 /* StockDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE247C1FD47259002BC219 /* StockDetailViewModel.swift */; };
-		B6BE24831FD47D41002BC219 /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE247B1FD47259002BC219 /* StockDetailViewController.swift */; };
+		B6557B3E1FFAAE0000C7B876 /* StockDetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6304A9F1FD443C600AF5044 /* StockDetailViewModel.swift */; };
+		B6557B3F1FFAAE0000C7B876 /* StockDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6304AA11FD443D300AF5044 /* StockDetailViewController.swift */; };
 		B6BE24851FD482FC002BC219 /* StockListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6BE24841FD482FC002BC219 /* StockListTableViewController.swift */; };
 /* End PBXBuildFile section */
 
@@ -296,10 +296,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B6BE24831FD47D41002BC219 /* StockDetailViewController.swift in Sources */,
+				B6557B3E1FFAAE0000C7B876 /* StockDetailViewModel.swift in Sources */,
 				B6BE24851FD482FC002BC219 /* StockListTableViewController.swift in Sources */,
-				B6BE24821FD47D3E002BC219 /* StockDetailViewModel.swift in Sources */,
 				B64D86EB1FD44B14008F4E7E /* StockStore.swift in Sources */,
+				B6557B3F1FFAAE0000C7B876 /* StockDetailViewController.swift in Sources */,
 				B64D86EF1FD44E24008F4E7E /* Formatters.swift in Sources */,
 				B64D86DE1FD445E9008F4E7E /* Stock.swift in Sources */,
 				B64D86E01FD44756008F4E7E /* GlobalSettings.swift in Sources */,

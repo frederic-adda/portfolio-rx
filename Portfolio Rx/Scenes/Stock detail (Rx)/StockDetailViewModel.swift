@@ -34,14 +34,10 @@ enum SectionType {
 enum Item {
     case numberOfShares
     case datePurchase
-    case pricePurchase
-    case priceCurrent
-    case currencyRatePurchase
-    case currencyRateCurrent
-    case valuationPurchase
-    case valuationCurrent
-    case gainOrLossValue
-    case gainOrLossPercentage
+    case pricePurchase, priceCurrent
+    case currencyRatePurchase, currencyRateCurrent
+    case valuationPurchase, valuationCurrent
+    case gainOrLossValue, gainOrLossPercentage
 }
 
 

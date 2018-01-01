@@ -26,11 +26,7 @@ class StockDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "\(viewModel.stock.symbol)"
-
-        // Bindings
-        
-        
+        title = viewModel.stock.symbol
     }
 }
 

@@ -8,6 +8,29 @@
 
 import UIKit
 
+struct Section {
+    var type: SectionType
+    var items: [Item]
+}
+
+enum SectionType {
+    case general
+    case price
+    case currencyRate
+    case valuation
+    case gainOrLoss
+}
+
+enum Item {
+    case numberOfShares
+    case datePurchase
+    case pricePurchase, priceCurrent
+    case currencyRatePurchase, currencyRateCurrent
+    case valuationPurchase, valuationCurrent
+    case gainOrLossValue, gainOrLossPercentage
+}
+
+
 class StockDetailViewModel {
     
     // MARK: - Initializer
@@ -39,31 +62,4 @@ class StockDetailViewModel {
     
     // MARK: - Output
     private(set) var sections: [Section]
-    
-    struct Section {
-        var type: SectionType
-        var items: [Item]
-    }
-    
-    enum SectionType {
-        case general
-        case price
-        case currencyRate
-        case valuation
-        case gainOrLoss
-    }
-    
-    enum Item {
-        case numberOfShares
-        case datePurchase
-        case pricePurchase
-        case priceCurrent
-        case currencyRatePurchase
-        case currencyRateCurrent
-        case valuationPurchase
-        case valuationCurrent
-        case gainOrLossValue
-        case gainOrLossPercentage
-    }
-    
 }

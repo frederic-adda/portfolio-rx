@@ -28,7 +28,7 @@ class StockDetailViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        title = "\(viewModel.stock.symbol)"
+        title = viewModel.stock.symbol
         
         // Build datasource
         setupDataSource()
@@ -57,7 +57,7 @@ class StockDetailViewController: UIViewController {
                 
             case .numberOfShares:
                 cell.textLabel?.text = NSLocalizedString("Detail VC:number of shares", comment: "Number of shares")
-                cell.detailTextLabel?.text = "\(stock.numberOfShares)"
+                cell.detailTextLabel?.text = String(stock.numberOfShares)
                 
             case .datePurchase:
                 // NB: should not appear if purchaseDate is nil
